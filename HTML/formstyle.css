@@ -1,0 +1,51 @@
+#div{
+	background-image:url("bg.jpg");
+	height:95%;
+	width:100%	;
+	
+}
+form{
+	background:grey;
+	width:500px;
+	height:650px;
+	margin:10px auto;
+	margin-top:10px;
+	padding:10px;
+	border:1px black solid;
+}
+input[type="text"]{
+	margin-top:7px;
+	margin-bottom:7px;
+	border:1px solid black;
+	height:30px;
+	width:250px;
+}
+input[type="password"]{
+	margin-top:7px;
+	margin-bottom:7px;
+	border:1px solid black;
+	height:30px;
+	width:250px;
+}
+textarea{
+	margin-top:7px;
+	resize:none;
+	width:250px;
+	height:100px;
+}
+select{
+	margin-top:7px;
+	height:30px;
+	width:250px;
+}
+input[type="submit"]{
+	margin-top:7px;
+	height:30px;
+	width:250px;
+	color:silver;
+}
+input[type="submit"]:hover{
+	height:30px;
+	width:250px;
+	color:grey;
+}

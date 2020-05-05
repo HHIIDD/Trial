@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Confidential</title>
+		<link rel="stylesheet" href="formstyle.css">
+	</head>
+	<body>
+		<h1 style="color:purple ;font-family:verdana";>Welcome to the user portal. Do as prompted</h1><hr>
+		<div id="div" valign="bottom"><form action="form-process.php" method="post" enctype="multipart/form-data">
+			<table >
+			<tr>
+					<td>Enter username</td>
+					<td><input type="text" name="u_name" placeholder="_m_24shukla_" required></td>
+				</tr>
+				<tr>
+					<td>Enter First name</td>
+					<td><input type="text" name="f_name" placeholder="Mayank" required></td>
+				</tr>
+				<tr>
+					<td>Enter last name</td>
+					<td><input type="text" name="l_name"placeholder="Shukla" required></td>
+				</tr>
+				<tr>
+					<td>Enter Age</td>
+					<td><input type="text" name="age" placeholder="18" required></td>
+				</tr>
+				<tr>
+					<td>Enter sex</td>
+					<td>Male:<input type="radio" name="gender">Female:<input type="radio" name="gender" required></td>
+				</tr>
+				<tr>
+					<td>Enter Skills</td>
+					<td required>HTML:<input type="checkbox" name="html"><br>C:<input type="checkbox" name="c"><br>C++:<input type="checkbox" name="cpp"><br>Python3:<input type="checkbox" name="py"></td>
+				</tr>
+				<tr>
+					<td>Select your city</td>
+					<td>
+						<select required>
+							<option value="rpr">Raipur</option>
+							<option value="ch">Chennai</option>
+							<option value="bpl">Bhopal</option>
+							<option value="in">Indore</option>
+							<option value="bsp" selected>Bilaspur</option>
+							<option value="rai">Raigarh</option>
+							<option value="mho">Mhow</option>
+							<option value="bmb">Mumbai</option>
+							<option value="jpr">Jaipur</option>
+							<option value="bjr">Bijuri</option>
+							<option value="dam">Damoh</option>
+							<option value="vds">Vidisha</option>
+							<option value="mds">Mandsour</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Contact No.</td>
+					<td><input type="text" required></td>
+				</tr>
+				<tr>
+					<td>Enter password</td>
+					<td><input type="password" placeholder="Enter password" required></td>
+				</tr>
+				<tr>
+					<td>Confirm password</td>
+					<td><input type="password" placeholder="Re-enter password" required></td>
+				</tr>
+				<tr>
+					<td>Upload Photo</td>
+					<td><input type="file" name="up-image" required  ></td>
+				</tr>
+				<tr>
+					<td>Remarks</td>
+					<td><textarea placeholder="Any queries"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" ></td>
+				</tr>
+			</table>
+		</form>
+		</div>
+	</body>	
+</html>

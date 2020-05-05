@@ -1,0 +1,23 @@
+table{
+	width:800px;
+	border-collapse:collapse;
+}
+tr{}
+td{
+	border:1px solid black;
+	text-align:centre;
+}
+th{
+	padding:10px 20px;
+	background:orange;
+	border:1px solid black;
+}
+.even{
+	background:silver;
+}
+
+#para{
+	font-size:25px;
+	font-stretch:20px;
+	font-family:verdana;
+}
